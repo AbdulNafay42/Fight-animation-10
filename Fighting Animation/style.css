@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    overflow: hidden !important;
+} 
+button{
+    margin: 30px;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-animation-2.gif);
+    background-size: cover;
+    object-fit: contain;
+    position: relative;
+    background-position: bottom;
+}
+
+.character {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0px;
+}
+
+.character2 {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0px;
+    transform: scalex(-1);
+    right: 0;
+
+}
+.main p{
+    padding-left: 20px; 
+}
+
+
+/* 
+.bg-animation img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.character-1{
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    width: 200px; 
+    height: 200px;   
+}
+.character-2 {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 200px; 
+    height: 200px; 
+}
+.character-1 img {
+    width: 100%;
+    height: 100%;
+}
+.character-2 img {
+    width: 100%;
+    height: 100%;
+    transform: scalex(-1); 
+}
+@media screen and (min-width: 375px) and (max-width: 450px) {
+ 
+.bg-animation img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.character-1{
+    position: absolute;
+    bottom: 0;
+    left: -10%;
+    width: 200px; 
+    height: 200px; 
+}
+.character-2 {
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+    width: 200px; 
+    height: 200px; 
+}
+.character-1 img {
+    width: 95%;
+    height: 95%;
+}
+.character-2 img {
+    width: 95%;
+    height: 95%;
+    transform: scaleX(-1); 
+}}  */
